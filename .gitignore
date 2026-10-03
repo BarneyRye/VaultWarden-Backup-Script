@@ -1,0 +1,11 @@
+# Local settings (real paths, maybe secrets later) - commit .env.example instead
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local test data and backups made while developing
+test-data/
+test-backups/
